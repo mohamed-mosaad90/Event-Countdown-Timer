@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventBuzz Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="countdown-container">
+        <h1>EventBuzz Countdown</h1>
+        <div id="countdown">
+            <div class="time-box">
+                <span id="days" class="time">00</span>
+                <span class="label">Days</span>
+            </div>
+            <div class="time-box">
+                <span id="hours" class="time">00</span>
+                <span class="label">Hours</span>
+            </div>
+            <div class="time-box">
+                <span id="minutes" class="time">00</span>
+                <span class="label">Minutes</span>
+            </div>
+            <div class="time-box">
+                <span id="seconds" class="time">00</span>
+                <span class="label">Seconds</span>
+            </div>
+        </div>
+        <button id="edit-button">Edit Time</button>
+        <div id="edit-section" class="hidden">
+            <input type="datetime-local" id="new-event-time" />
+            <button id="start-button">Start Countdown</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
